@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe "Static pages" do
-
   subject { page }
 
   describe "Home page" do
@@ -25,7 +24,7 @@ describe "Static pages" do
 
   describe "Contact page" do
     before { visit '/contact' }
-    it { should have_contact('Contact') }
+    it { should have_content('Contact') }
     it { should have_title(full_title('Contact')) }
   end
 
