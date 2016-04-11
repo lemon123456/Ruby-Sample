@@ -36,3 +36,6 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
+
+
+gem 'bcrypt-ruby', '3.1.2'
