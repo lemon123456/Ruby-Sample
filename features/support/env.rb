@@ -20,6 +20,7 @@ Capybara.server_host = '0.0.0.0'
 Capybara.default_wait_time = 60
 
 World(Capybara)
+# page.driver.browser.manage.timeouts.page_load = 300
 
 # Capybara defaults to CSS3 selectors rather than XPath.
 # If you'd prefer to use XPath, just uncomment this line and adjust any

@@ -3,7 +3,7 @@ Given /^a user visits the home page$/ do
 end
 
 When /^he click on the about page link$/ do
-  click_link('About')
+  click_link :About
 end
 
 Then /^he should see "About Us" on the page$/ do
