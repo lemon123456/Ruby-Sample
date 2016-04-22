@@ -35,9 +35,9 @@ end.run(
 	# debug mode
 	debug: true,
 	# path/name for the JMX file
-	file: "results/perf_test.jmx",
+	file: "jmeter/results/perf_test.jmx",
 	# path/name to output JMeter logs
-	log: "results/perf_test_results.log",
+	log: "jmeter/results/perf_test_results.log",
 	# path/name for JMeter results
-	jtl: "results/perf_test_results.jtl"
+	jtl: "jmeter/results/perf_test_results.jtl"
 )
