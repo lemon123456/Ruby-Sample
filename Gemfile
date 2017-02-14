@@ -44,3 +44,19 @@ end
 gem 'bcrypt-ruby', '3.1.2'
 
 gem 'ruby-jmeter'
+
+##############################################################
+# Rubycritic
+gem "rubycritic", :require => false
+
+
+
+
+
+
+
+
+
+
+
+
